@@ -19,7 +19,7 @@ df = calculate_average_loss(df)
 
 # Create Dash app
 app = Dash(__name__)
-
+server = app.server
 # Create figure
 fig = go.Figure()
 
